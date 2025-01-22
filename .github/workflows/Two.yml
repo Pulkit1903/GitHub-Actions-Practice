@@ -8,12 +8,12 @@ on:
       - main
   workflow_dispatch:
 
-  jobs:
-    Sum:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: action/checkout@v4
-        - name: Date print
-          run: echo date
-          shell: bash
+jobs:
+  Sum:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v4
+      - name: Date print
+        run: echo date
+        shell: bash
     
