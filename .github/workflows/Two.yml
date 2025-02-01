@@ -23,4 +23,10 @@ jobs:
       - name: Working Dir Print
         run: pwd
         shell: bash
+  
+  MakingNewFile:
+    runs-on: ubuntu-latest
+      - name: Making new file
+        run: mkdir Hello
+        shell: bash
     
