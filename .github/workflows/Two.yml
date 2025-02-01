@@ -26,7 +26,11 @@ jobs:
   
   MakingNewFile:
     runs-on: ubuntu-latest
+      steps:
       - name: Making new file
         run: mkdir Hello
+        shell: bash
+      - name: Printing files
+        run: ls
         shell: bash
     
